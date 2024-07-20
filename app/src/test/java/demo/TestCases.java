@@ -47,7 +47,7 @@ public class TestCases {
     @FindBy(xpath = "//main[contains(@class,'ytabout__main')]//section/child::h1/parent::section/child::p[1]")
     WebElement msg2;
 
-    @Test(enabled = false , priority = 1)
+    @Test(enabled = true , priority = 1)
     public void TestCase01(){
         try {
             System.out.println("Start Test case: TestCase01");
@@ -93,7 +93,7 @@ public class TestCases {
     @FindBy(xpath = "//*[@class='badges style-scope ytd-grid-movie-renderer']//div[@role='img']//p[@class='style-scope ytd-badge-supported-renderer']")
     List<WebElement> AllMoviesTypeEle;
 
-    @Test(enabled = false,priority = 2)
+    @Test(enabled = true,priority = 2)
     public void TestCase02(){
         try{
             System.out.println("Start Test case: TestCase02");
@@ -155,7 +155,7 @@ public class TestCases {
     @FindBy(xpath = "(//yt-horizontal-list-renderer)[1]//div[@id='scroll-outer-container'][1]//a[contains(@class,' ytd-compact-station-renderer')]//p[@id='video-count-text']")
     List<WebElement> AllFirstRowMoviesTrackCount;
 
-    @Test(enabled = false , priority = 3)
+    @Test(enabled = true , priority = 3)
     public void TestCase03(){
         try{
             System.out.println("Start Test case: TestCase03");

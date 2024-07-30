@@ -14,4 +14,9 @@ public class Wrappers {
     /*
      * Write your selenium wrappers here
      */
+     public void NavigateToUrl(WebDriver driver , String url){
+        if(!driver.getCurrentUrl().equals(url)){
+            driver.get(url);
+        }
+    }
 }
